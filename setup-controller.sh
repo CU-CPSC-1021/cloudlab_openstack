@@ -4460,7 +4460,7 @@ openstack port create --network ${network_id} --fixed-ip subnet=${subnet_id},ip-
 openstack port create --network ${network_id} --fixed-ip subnet=${subnet_id},ip-address=10.11.10.24 testport4
 
 #####################################################################################################################
-wget -O /tmp/setup/ORANGE.vmdk https://clemson.box.com/shared/static/5ss7qq2bc424h0hrfph37daqjmra1mlu.vmdk
+wget -O /tmp/setup/ORANGE.vmdk https://clemson.box.com/shared/static/peiax4u09t25osf7eeohzgw9vwplszrs.vmdk
 
 glance image-create --name ORANGE --disk-format vmdk --visibility public --container-format bare < /tmp/setup/ORANGE.vmdk
 
